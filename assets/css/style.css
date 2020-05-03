@@ -147,10 +147,11 @@ footer a {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
     border-bottom: 3px solid #39a6b2;
-    display: inline-block;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -160,10 +161,6 @@ footer a {
 .secondary-border {
     border-color: #39a6b2;
 }
-.intro {
-    text-align: center;
-    padding: 50px 0 50px 0;
-}
 
 .intro p {
     line-height: 1.7;
@@ -171,10 +168,10 @@ footer a {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .steps {
-    text-align: center;
     background: #fce138;
     padding: 50px 0 50px 0;
 }
@@ -207,7 +204,6 @@ footer a {
 
 /* Trainers Style Starts */
 .trainers {
-    text-align: center;
     margin-top: 30px;
 }
 
@@ -230,14 +226,6 @@ footer a {
     width: 65%;
 }
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
@@ -258,7 +246,6 @@ footer a {
 
 /* Contact Style Starts */
 .contact {
-    text-align: center;
     background-color: #024e76;
     padding: 30px 0 50px 0;
 }
@@ -297,4 +284,15 @@ footer a {
     color: #fce138;
 }
 
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
+}
 /* Contact Style Ends */
